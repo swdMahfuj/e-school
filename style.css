@@ -1,0 +1,489 @@
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Shared styles */
+.display-flex{
+    display: flex;
+    gap: 15px;
+}
+.background-img{
+    background-image: url(assets/bg.png);
+}
+/* Navbar related styles */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.25rem  auto;
+}
+.logo-container{
+    align-items: center;
+    flex: 1;
+}
+.nav-links{
+    flex: 1;
+    gap: 2rem;
+}
+
+
+.school-name{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.nav-1{
+    color: #FEA301;
+}
+.nav-2{
+    color: #01ACFD;
+}
+.nav-3{
+    color: #F4451C;
+}
+.nav-4{
+    color: #5D58EF;
+}
+.btn-contact-container{
+    flex: 1;
+    display:  flex;
+    justify-content: end;
+}
+.btn-contact{
+    padding: 0.625rem 3.781rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+}
+.menu-img{
+    width: 30px;
+    display: none;
+}
+/* Banner related styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 40rem;
+    margin-top: 7.625rem;
+}
+.hero-img{
+    width: 29.288rem;
+    height: 35.938rem;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+#span-1{
+    color: #FEA301;
+}
+#span-2{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.25rem;
+}
+.enroll-btn{
+    padding: 0.625rem 2.938rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+}
+
+ /* Standard Curriculum Section related styles */
+.curriculum-header{
+    font-weight: 800;
+    font-size: 2.875rem;
+    text-align: center;
+}
+.curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.curriculum{
+    width: 22.988rem;
+    height: 29.799rem;
+    justify-items: center;
+    border: none;
+    border-radius: 1.179rem;
+    box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+.curriculum-1{
+    background: linear-gradient( #DEF5FF, #FFFFFF);
+}
+.curriculum-2{
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+    margin-left: 2.5rem;
+}
+.curriculum-3{
+    background: linear-gradient(rgba(242, 232, 255, 1), rgba(255, 255, 255, 1));
+    margin-left: 3.6rem;
+}
+.curriculum-img{
+    margin-top: 3.25rem;
+}
+.curriculum-title{
+    font-weight: 800;
+    font-size: 1.533rem;
+    text-align: center;
+}
+.curriculum-description{
+    width: 18.75rem;
+    font-weight: 500;
+    font-size: 0.943rem;
+    color: #808080;
+    text-align: center;
+    margin-top: -1rem;
+}
+#a-1{
+    text-decoration: none;
+    color: #64C8FF;
+}
+#a-2{
+    text-decoration: none;
+    color: #F0AA00;
+}
+#a-3{
+    text-decoration: none;
+    color: #8700FF;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0px;
+    margin-top: 80px;
+}
+/* Our stories section related styles */
+.our-stories{
+    background: linear-gradient(rgba(255, 255, 255, 1), rgb(245, 229, 203));
+    margin-top: 7rem;
+}
+.story-1{
+    width: 33.767rem;
+    height: 39.9rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+}
+.story-2, .story-3, .story-4, .story-5{
+    width: 18.168rem;
+    height: 18.851rem;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+}
+.our-stories-header{
+    font-weight: 800;
+    font-size: 2.875rem;
+    text-align: center;
+}
+.stories-container{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+
+}
+.part-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:4rem;
+    row-gap: 2rem;
+}
+#story-img-1{
+    width: 33.75rem;
+    border-radius: 1rem 1rem 0 0;
+}
+.story-img-2, .story-img-3, .story-img-4, .story-img-5{
+    border-radius: 1rem 1rem 0 0;
+}
+.story-1-container{
+    margin-top: -25px;
+}
+.story-btn-1{
+    padding: 0.899rem 1.198rem;
+    background-color: #3CD8E8;
+    color: white;
+    border: none;
+    border-radius: 2.996rem;
+    margin-left: 2.397rem;
+}
+.story-btn{
+    font-weight: 500;
+    font-size: 0.959rem;
+    color: white;
+    padding: 0.599rem 1.188rem;
+    border: none;
+    border-radius: 2.996rem;
+}
+.story-btn-2{
+    background-color: #95B226;
+}
+.story-btn-3{
+    background-color: #5D58F0;
+}
+.story-btn-4{
+    background-color: #F4451C;
+}
+.story-btn-5{
+    background-color: #5D58F0;
+}
+.story-container{
+    margin: 0 3.422rem 2.097rem 2rem;
+    padding-bottom: 1.798rem;
+    border: none;
+    margin-top: -25px;
+}
+#story-title-1{
+    width: 25.156rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding: 0 2.397rem;
+}
+.story-title{
+    width: 13.375rem;
+    font-weight: 800;
+    font-size: 0.959rem;
+}
+#story-description-1{
+    width: 27.066rem;
+    font-weight: 500;
+    font-size: 0.959rem;
+    color: #666666;
+    padding: 0 2.397rem;
+}
+.view-all-btn{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+    padding: 0.625rem 3.813rem;
+    background-color: black;
+    border: none;
+    border-radius: 0.75rem;
+    margin: 20px auto;
+}
+/* Footer related styles */
+footer{
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column-1{
+    padding-top: 5.688rem;
+    padding-bottom: 8.875rem;
+}
+.footer-column-2{
+    padding-top: 5.688rem;
+    padding-bottom: 8.875rem;
+}
+.footer-column-3{
+    padding-top: 5.688rem;
+}
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-school-name{
+    font-weight: 800;
+    font-size: 2.634rem;
+    color: white;
+}
+.footer-description{
+    width: 25rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1.209rem;
+}
+.about{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+li{
+    list-style: none;
+    margin-bottom: 1.25rem;
+    margin-left: -2.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.column-3-title{
+    font-weight: bold;
+    font-size: 1.625rem;
+    color: white;
+}
+.icon{
+    border-radius: 0.25rem;
+    margin-right: 0.634rem;
+}
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    .school-name, .nav-links, .btn-contact{
+        display: none;
+    }
+    .logo{
+        width: 2.875rem;
+        margin-left: 30px;
+    }
+    .menu-img{
+        display: flex;
+        margin-right: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        width: 21.036rem;
+        height: 25.813rem;
+        margin: 0 auto;
+    }
+    .banner-content{
+        width: 22.313rem;
+        height: 15.75rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        font-weight: 500;
+        font-size: 0.875rem;
+        border-radius: 8px;
+    }
+    .curriculum-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .curriculum-header{
+        font-size: 1.625rem;
+        margin-top: 5rem;
+    }
+    .curriculum-title{
+        font-size: 1rem;
+    }
+    .curriculum-description{
+        font-size: 0.639rem;
+    }
+    a{
+        font-size: 0.639rem;
+    }
+    .curriculum-1{
+        margin: 0 auto;
+        margin-bottom: 0.625rem;
+    }
+    .curriculum-2{
+        margin: 0 auto;
+        margin-bottom: 0.625rem;
+    }
+    .curriculum-3{
+        margin: 0 auto;
+    }
+    .our-stories-header{
+        margin-left: 40px;
+    }
+    .part-1{
+        display: none;
+    }
+    .part-2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        
+    }
+    .story-2, .story-3, .story-4, .story-5{
+        width: 10.834rem;
+        height: 11.224rem;
+    }
+    .story-img-2, .story-img-3, .story-img-4, .story-img-5{
+        width: 10.829rem;
+        height: 6.587rem;
+    }
+    .story-container{
+        margin-top: -20px;
+        margin-left: 15px;
+    }
+    .arrows{
+        display: none;
+    }
+    .story-btn{
+        width: 6.494rem;
+        font-weight: normal;
+        font-size: 0.571rem;
+        margin-right: -10px;
+        padding: 5.71px 6.28px 5.71px 11.42px;
+    }
+    .story-title{
+        font-size: 0.571rem;
+        width: 7.37rem;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 408px;
+        height: 642px;
+    }
+    .footer-logo-container{
+        width: 15.625rem;
+        margin-top: -50px;
+    }
+    .footer-column-2{
+        width: 8.063rem;
+        padding-left: 10px;
+        margin-top: -200px;
+    }
+    .footer-logo{
+        width: 4.313rem;
+    }
+    .footer-school-name{
+        font-size: 2.223rem;
+    }
+    .footer-description{
+        display: none;
+    }
+    .about{
+        font-weight: 500;
+        font-size: 1.212rem;
+    }
+    .nav-list > ul > li > a{
+        font-size: 1.06rem;
+    }
+    .footer-column-3{
+        padding-bottom: 3.75rem;
+        padding-left: 10px;
+        margin-top: -240px;
+    }
+    .column-3-title{
+        font-weight: 700;
+        font-size: 1.378rem;
+    }
+    .icon{
+        width: 2.119rem;
+    }
+}
+    
